@@ -10,3 +10,6 @@ http://www.raywenderlich.com/24252/beginning-game-programming-for-teens-with-pyt
 ```bash
 $ python mainGame.py
 ```
+#Screeshot
+
+![](http://i.imgur.com/rXGXvoG.jpg)
