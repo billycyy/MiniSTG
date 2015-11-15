@@ -227,6 +227,7 @@ while 1:
 		if event.type == pygame.QUIT:
 			pygame.quit()
 			exit(0)
-		if event.key == pygame.K_r:
-			run()
+		if hasattr(event, 'key'):
+			if event.key == pygame.K_r:
+				run()
     pygame.display.flip()	
