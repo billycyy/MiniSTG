@@ -1,7 +1,7 @@
-# -*- coding: utf-8 -*-
+# A mini shooting game
 # author: Yiyun Chen
 # ref http://www.raywenderlich.com/24252/beginning-game-programming-for-teens-with-python
-
+import time
 import pygame
 from pygame.locals import *
 import sys 
@@ -9,7 +9,7 @@ import sys
 pygame.init()
 width, height = 800, 600
 screen=pygame.display.set_mode((width, height))
-pygame.display.set_caption('大战丁鑫')
+pygame.display.set_caption('Mini STG')
 youhealth = 10
 keys = [False, False, False, False]
 playerpos=[350,500]
@@ -47,7 +47,7 @@ while running:
 	# 5 - clear the screen before drawing it again
 	screen.fill(0)
 	
-    # 6 - draw the screen elements
+	# 6 - draw the screen elements
 	screen.blit(background, (0, 0))
 	screen.blit(player, playerpos)
 	screen.blit(bossding, bosspos)
@@ -105,9 +105,9 @@ while running:
 		index2 += 1
 	for id in sorted(remv, reverse=True):
 		arrowws.pop(id)
-    # 7 - update the screen
+	# 7 - update the screen
 	pygame.display.flip()
-    # 8 - loop through the events
+	# 8 - loop through the events
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			pygame.quit()
@@ -217,8 +217,7 @@ if exitcode==0:
 	screen.blit(gameover, (0,0))    
 else:
 	screen.blit(youwin, (0,0))
-	
-	
+
 
 while 1:
     for event in pygame.event.get():
