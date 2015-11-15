@@ -13,3 +13,4 @@ $ python mainGame.py
 #Screeshot
 
 ![](http://i.imgur.com/rXGXvoG.jpg)
+![](http://i.imgur.com/GpMO7Jl.jpg)
