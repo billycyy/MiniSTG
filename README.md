@@ -14,5 +14,5 @@ Make sure to tune the volume to a proper value : )
 
 #Screeshot
 ![demo](resources/demo.gif)
-![](http://i.imgur.com/rXGXvoG.jpg)
-![](http://i.imgur.com/GpMO7Jl.jpg)
+![](resources/demo1.png)
+![](resources/demo2.png)
