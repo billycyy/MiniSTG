@@ -13,6 +13,6 @@ $ python mainGame.py
 Make sure to tune the volume to a proper value : )
 
 #Screeshot
-![Demo](http://s18.postimg.org/ky4od7213/bandicam_2015_11_15_22_43_23_125.gif)
+![](http://s18.postimg.org/ky4od7213/bandicam_2015_11_15_22_43_23_125.gif)
 ![](http://i.imgur.com/rXGXvoG.jpg)
 ![](http://i.imgur.com/GpMO7Jl.jpg)
