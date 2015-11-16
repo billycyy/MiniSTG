@@ -10,6 +10,8 @@ http://www.raywenderlich.com/24252/beginning-game-programming-for-teens-with-pyt
 ```bash
 $ python mainGame.py
 ```
+Make sure to tune the volume to a proper value : )
+
 #Screeshot
 
 ![](http://i.imgur.com/rXGXvoG.jpg)
