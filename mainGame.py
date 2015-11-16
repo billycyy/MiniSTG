@@ -6,6 +6,13 @@ import pygame
 from pygame.locals import *
 import sys 
 
+pygame.mixer.init()
+hit = pygame.mixer.Sound("resources/sound/pp.wav")
+hit.set_volume(1.0)
+pygame.mixer.music.load('resources/sound/bgm.wav')
+pygame.mixer.music.play(-1, 0.0)
+pygame.mixer.music.set_volume(0.5)
+
 def run():
 	# 2 - Initialize the game
 	pygame.init()
@@ -97,11 +104,13 @@ def run():
 					remv.append(index2)
 				else:	
 					bullet[3] = -bullet[3]
+					hit.play()
 			if bullet[0] < 0 or bullet[0] > 800:
 				if bullet[4] == 1:
 					remv.append(index2)
 				else:			
 					bullet[2] = -bullet[2]
+					hit.play()
 			
 			index2 += 1
 		for id in sorted(remv, reverse=True):
