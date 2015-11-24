@@ -1,5 +1,5 @@
 # MiniSTG
-a mini game written by python and pygame
+a mini game written in python and with pygame
 # Requirement
 1.python
 2.pygame (http://www.pygame.org/download.shtml)
